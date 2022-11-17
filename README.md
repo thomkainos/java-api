@@ -1,4 +1,4 @@
-# java-dropwizard-swagger-jdbc
+# java-api
 
 Database
 ---
@@ -18,7 +18,7 @@ DB_HOST
 DB_NAME
 ```
 
-How to start the java-dropwizard-swagger-jdbc application
+How to start the java-api application
 ---
 
 1. Run `mvn clean install -DskipTests=true` to build your application
@@ -35,9 +35,3 @@ Tests
 
 1. Run `mvn clean test` to run unit tests
 2. Run `mvn clean integration-test` to run integration tests
-    
-    run "docker compose up" from the src directory, this spins up both the api and a mysql db instance.
-    
-    Next log onto your db instance and follow the commands under "Database".
-    
-    Done....the service should be able to operate as expected.      
